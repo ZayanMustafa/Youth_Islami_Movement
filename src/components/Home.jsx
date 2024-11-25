@@ -4,7 +4,7 @@ import JoinUs from "./JoinUs";
 import NavBar from "./Navbar";
 import Programs from "./Programs";
 import Static from "./Static";
-
+import Team from './Team';
 export default function Home (){
     return (
         <>
@@ -12,6 +12,7 @@ export default function Home (){
         <HeroSection/>
         <Programs/>
         <Static/>
+        <Team/>
         <JoinUs/>
         <Footer/>
     </> 
