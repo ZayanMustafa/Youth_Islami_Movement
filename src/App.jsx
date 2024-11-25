@@ -1,10 +1,10 @@
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
 import NavBar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 import Programs from "./components/Programs";
 import Static from "./components/Static";
 import Team from "./components/Team";
+import JoinUs from "./components/JoinUs";
+import Footer from "./components/Footer";
 
 export default function App (){
   return (
@@ -14,7 +14,7 @@ export default function App (){
         <Programs/>
         <Static/>
         <Team/>
-        <Contact/>
+        <JoinUs/>
         <Footer/>
     </>
     
