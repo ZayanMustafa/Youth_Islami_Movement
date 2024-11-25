@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function HeroSection (){
     return (
         <section className="text-gray-400 bg-gray-900 body-font">
@@ -15,9 +16,11 @@ export default function HeroSection (){
       unity, service, and a deeper connection with their faith.
       </p>
       <div className="flex justify-center">
+       <Link to="/">
         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Read More
         </button>
+       </Link>
         
       </div>
     </div>
