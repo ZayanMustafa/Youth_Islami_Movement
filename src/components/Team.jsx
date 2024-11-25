@@ -21,6 +21,11 @@ export default function Team() {
         image: "https://dummyimage.com/88x88"
       },
       {
+        name: "Ibad Ansari",
+        role: "Graphics Designer",
+        image: "https://dummyimage.com/88x88"
+      },
+      {
         name: "Faris Raza Khan",
         role: "Speaker",
         image: "https://dummyimage.com/90x90"
