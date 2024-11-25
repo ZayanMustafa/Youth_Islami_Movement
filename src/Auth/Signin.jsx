@@ -27,7 +27,7 @@ export default function RegisterForm() {
                     type="text"
                     required
                     autoComplete="name"
-                    placeholder="Enter your full name"
+                    placeholder=" Enter your full name"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   />
                 </div>
@@ -45,7 +45,7 @@ export default function RegisterForm() {
                     type="email"
                     required
                     autoComplete="email"
-                    placeholder="Enter your email"
+                    placeholder=" Enter your email"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   />
                 </div>
@@ -63,7 +63,7 @@ export default function RegisterForm() {
                     type="password"
                     required
                     autoComplete="new-password"
-                    placeholder="Enter a secure password"
+                    placeholder=" Enter a secure password"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   />
                 </div>
@@ -81,7 +81,7 @@ export default function RegisterForm() {
                     type="password"
                     required
                     autoComplete="new-password"
-                    placeholder="Re-enter your password"
+                    placeholder=" Re-enter your password"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   />
                 </div>
