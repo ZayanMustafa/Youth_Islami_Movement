@@ -63,17 +63,6 @@ export default function RegisterForm() {
               <div>
 
                 <button
-                  className="flex items-center justify-center gap-2 px-4 py-2 text-sm text-gray-200 border border-gray-600 rounded-md bg-gray-800 hover:bg-gray-700"
-                >
-                  <img
-                    src=""
-                    alt="Google Icon"
-                    className="w-5 h-5"
-                  />
-                  Sign in with Google
-                </button>
-
-                <button
                   type="submit"
                   className="flex w-full justify-center rounded-md bg-indigo-500 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                 >
@@ -81,7 +70,6 @@ export default function RegisterForm() {
                 </button>
               </div>
             </form>
-
             <p className="mt-10 text-center text-sm text-gray-400">
               Not a member?{" "}
               <Link
