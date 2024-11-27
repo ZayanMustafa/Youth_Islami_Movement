@@ -11,7 +11,7 @@ export default function ReadMoreAboutUs() {
             Youth Islami Movement (YIM)
           </h2>
             </Link>
-
+          
           <p className="mt-4 text-lg leading-relaxed">
             Youth Islami Movement (YIM) is a dynamic platform dedicated to{" "}
             <strong className="text-white">inspiring a generation through Islam</strong>. We empower young

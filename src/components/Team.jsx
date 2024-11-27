@@ -1,3 +1,5 @@
+import Zayyan from '../assets/images/Zayyan.jpg';
+
 export default function Team() {
     const teamMembers = [
       {
@@ -8,7 +10,7 @@ export default function Team() {
       {
         name: "Zayyan Mustafa",
         role: "Vice President & Trainer",
-        image: "https://dummyimage.com/84x84"
+        image: {Zayyan}
       },
       {
         name: "Syed Moiz",
@@ -61,9 +63,9 @@ export default function Team() {
         image: "https://dummyimage.com/100x90"
       }
     ];
-  
+  console.log(Zayyan)
     return (
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="w-full w-full-screen text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
