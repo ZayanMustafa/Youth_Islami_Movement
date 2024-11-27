@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import LogoIcon from '../assets/images/YouthIslamiMovementIcon.jpg';
 
 export default function NavBar() {
     return (
@@ -9,10 +10,11 @@ export default function NavBar() {
                     className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
                 >
                     <img
-                        // src="./assets/images/YouthIslamiMovementIcon.jpg" // Ensure this path is correct
+                        src={LogoIcon}
                         alt="Youth Islami Movement Logo"
-                        className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                        className="w-10 h-10 text-white  rounded-full"
                     />
+
                     <span className="ml-3 text-xl">Youth Islami Movement</span>
                 </Link>
 

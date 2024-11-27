@@ -1,20 +1,22 @@
 import { Link } from "react-router-dom";
+import LogoIcon from '../assets/images/YouthIslamiMovementIcon.jpg';
 
 export default function RegisterForm() {
   return (
     <>
       <div className="flex min-h-screen items-center justify-center bg-gray-900 bg-cover bg-center" style={{ backgroundImage: "url('../assets/images/background.jpg')" }}>
         <div className="bg-gray-800 bg-opacity-90 p-8 rounded-lg shadow-lg sm:w-full sm:max-w-md">
-          <div className="text-center">
-            <img
-              alt="Logo of Youth Islami Movement"
-              src="../assets/images/YouthIslamiMovementIcon.jpg"
-              className="mx-auto h-10 w-auto"
-            />
-            <h2 className="mt-10 text-center text-2xl font-bold tracking-tight text-white">
-              Sign in to your account
-            </h2>
-          </div>
+        <div className="text-center">
+  <img
+    alt="Logo of Youth Islami Movement"
+    src={LogoIcon} 
+    className="mx-auto h-20 w-auto" 
+  />
+  <h2 className="mt-3 text-2xl font-bold tracking-tight text-white">
+    Sign in to your account
+  </h2>
+</div>
+
 
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
             <form action="#" method="POST" className="space-y-6">

@@ -1,3 +1,4 @@
+import LogoIcon from '../assets/images/YouthIslamiMovementIcon.jpg';
 export default function RegisterForm() {
   return (
     <>
@@ -5,7 +6,7 @@ export default function RegisterForm() {
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             alt="Logo of Youth Islami Movement"
-            src="../assets/images/YouthIslamiMovementIcon.jpg"
+            src={LogoIcon}
             className="mx-auto h-10 w-auto"
           />
           <h2 className="mt-6 text-center text-2xl font-bold tracking-tight text-gray-200">

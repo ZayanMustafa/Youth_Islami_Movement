@@ -1,3 +1,9 @@
+import MasjidNight from '../assets/images/MasjidNight.jpg';
+import ComingSoon from '../assets/images/ComingSoonImage.avif';
+import CircketMatch from '../assets/images/CircketMatche.jpg';
+
+
+
 export default function Programs (){
     return(
         <section className="text-gray-400 bg-gray-900 body-font">
@@ -18,7 +24,7 @@ export default function Programs (){
           <img
             alt="Masjid Night"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="https://dummyimage.com/600x360"
+            src= {MasjidNight}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
@@ -40,7 +46,7 @@ export default function Programs (){
           <img
             alt="Cricket Match"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="https://dummyimage.com/601x361"
+            src={CircketMatch}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
@@ -62,7 +68,7 @@ export default function Programs (){
           <img
             alt="Chai Gatherings"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="https://dummyimage.com/603x363"
+            src={ComingSoon}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">

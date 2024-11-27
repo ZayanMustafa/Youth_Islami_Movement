@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Caligraply from '../assets/images/Caligraphy.jpg';
 
 export default function NotFound() {
   return (
@@ -21,7 +22,7 @@ export default function NotFound() {
       </Link>
       <div className="mt-8">
         <img
-          src="../assets/images/404-Islamic.png"
+          src={Caligraply}
           alt="Islamic Calligraphy with a Crescent Moon"
           className="max-w-xs"
         />
