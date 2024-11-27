@@ -1,4 +1,5 @@
 import LogoIcon from '../assets/images/YouthIslamiMovementIcon.jpg';
+import GoogleIcon from '../assets/images/Google.png';
 export default function RegisterForm() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function RegisterForm() {
             className="flex w-full items-center justify-center gap-2 rounded-md bg-indigo-500 mb-4 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+              src= { GoogleIcon}
               alt="Google Icon"
               className="w-5 h-5"
             />
