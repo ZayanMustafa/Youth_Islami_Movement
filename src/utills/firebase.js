@@ -6,6 +6,7 @@ import {
     createUserWithEmailAndPassword,
     GoogleAuthProvider,
     signOut,
+    // handleSignInWithGoogle,
     onAuthStateChanged
 } from "firebase/auth";
 
@@ -19,6 +20,7 @@ const firebaseConfig = {
     measurementId: "G-41ZNP4NJR1"
 };
 
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
@@ -30,6 +32,7 @@ export {
     GoogleAuthProvider,
     signOut,
     onAuthStateChanged,
+    // handleSignInWithGoogle,
     auth,
     app,
 }
