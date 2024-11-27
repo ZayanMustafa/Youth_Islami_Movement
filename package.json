@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.4.8",
     "clsx": "^2.1.1",
+    "firebase": "^11.0.2",
     "install": "^0.13.0",
     "lucide-react": "^0.460.0",
     "npm": "^10.9.1",
