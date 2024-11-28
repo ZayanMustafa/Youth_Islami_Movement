@@ -1,26 +1,20 @@
+import { Link } from 'react-router-dom';
+import LogoIcon from '../assets/images/YouthIslamiMovementIcon.jpg';
+
 export default function Footer (){
     return (
         <footer className="text-gray-400 bg-gray-900 body-font">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <Link to="/navbar">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-      <svg
-        xmlns="https://scontent.fkhi2-2.fna.fbcdn.net/v/t39.30808-1/465894691_122192001776225856_6500456309592905027_n.jpg?stp=dst-jpg_s200x200&_nc_cat=105&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=wrjGRSGf2OEQ7kNvgEUnCa2&_nc_zt=24&_nc_ht=scontent.fkhi2-2.fna&_nc_gid=AJrEMN_TSBmFaAWfMGdoJaA&oh=00_AYCXY6UxjQJ6-Qx2Srs6-s6fdOqzCUP7U5aF928BB-7daA&oe=67495C71"
-        fill="none"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-        viewBox="0 0 24 24"
-      >
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-      </svg>
+      <img src={LogoIcon} alt="" className="w-10 h-10 rounded-full"/>
       <span className="ml-3 text-xl">Youth Islami Movement</span>
     </a>
+      </Link>
     <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
       © 2024 youthislamimovement —
       <a
-        href="https://twitter.com/knyttneve"
+        href="https://www.facebook.com/profile.php?id=61556775699993"
         className="text-gray-500 ml-1"
         target="_blank"
         rel="noopener noreferrer"

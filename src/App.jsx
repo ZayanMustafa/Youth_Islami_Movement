@@ -5,7 +5,6 @@ import RegisterForm from "./Auth/Signin";
 import ReadMoreAboutUs from "./components/readmoreaboutus";
 import NotFound from "./components/NotFound";
 import {NextUIProvider} from '@nextui-org/react'
-// import { app } from "./utills/firebase";
 export default function App() {
   return (
     <>

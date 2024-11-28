@@ -1,14 +1,15 @@
 import LogoIcon from '../assets/images/YouthIslamiMovementIcon.jpg';
 import GoogleIcon from '../assets/images/Google.png';
-import { GoogleAuthProvider, handleSignInWithGoogle } from '../utills/firebase';
+import { GoogleAuthProvider,  } from '../utills/firebase';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 export default function RegisterForm() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
-  const handleSignInWithGoogle = ()=> {
-    const provider = new GoogleAuthProvider()
-    provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
-  }
+  // const handleSignInWithGoogle = ()=> {
+  //   const provider = new GoogleAuthProvider()
+  //   provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+  // }
   return (
     <>
 
@@ -25,7 +26,7 @@ export default function RegisterForm() {
         </div>
 
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-sm bg-gray-800 p-6 rounded-lg shadow-lg">
-          <button onClick={ HandleSignInWithGoogle}
+          <button 
             className="flex w-full items-center justify-center gap-2 rounded-md bg-indigo-500 mb-4 px-3 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           >
             <img
@@ -117,12 +118,14 @@ export default function RegisterForm() {
           {/* Already have an account? */}
           <p className="mt-6 text-center text-sm text-gray-400">
             Already have an account?{' '}
-            <a
+           <Link to="/">
+            <button
               href="/login"
               className="font-semibold text-indigo-400 hover:text-indigo-300"
             >
               Sign in here
-            </a>
+            </button>
+            </Link>
           </p>
         </div>
       </div>
