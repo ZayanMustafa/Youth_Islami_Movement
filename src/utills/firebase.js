@@ -1,13 +1,14 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import {
+    getFirestore,
     getAuth,
     signInWithEmailAndPassword,
     createUserWithEmailAndPassword,
     GoogleAuthProvider,
     signOut,
-    // handleSignInWithGoogle,
-    onAuthStateChanged
+    onAuthStateChanged,
+    signInWithPopup
+
 } from "firebase/auth";
 
 const firebaseConfig = {
@@ -26,13 +27,15 @@ const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
 const auth = getAuth(app);
 
+const provider = new GoogleAuthProvider();
 export {
     signInWithEmailAndPassword,
     createUserWithEmailAndPassword,
     GoogleAuthProvider,
     signOut,
     onAuthStateChanged,
-    // handleSignInWithGoogle,
+    signInWithPopup,
     auth,
     app,
+    provider,
 }
