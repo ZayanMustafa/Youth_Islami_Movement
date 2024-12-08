@@ -11,12 +11,11 @@ export default function App() {
     <NextUIProvider> 
       <BrowserRouter>
         <Routes>
-          {/* console.log(<app/>) */}
           <Route path="/" element={<Home />} ></Route>
           <Route path="/readmore" element={<ReadMoreAboutUs />}></Route>
           <Route path="/signin" element={<RegisterForm />}></Route>
           <Route path="/login" element={<LoginForm />} ></Route>
-          <Route path="*" element={<NotFound/>}></Route>
+          <Route path="/uncaugtherroronloadingthispage" element={<NotFound/>}></Route>
         </Routes>
       </BrowserRouter>
     </NextUIProvider>
